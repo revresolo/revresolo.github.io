@@ -1,0 +1,221 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lucida sans',Verdana;
+
+}
+body
+{
+    background: rgb(233, 229, 229); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+.container
+{
+    position: relative; 
+    width: 100%;
+    max-width: 1200px;  
+    min-height: 1350px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0 35px 55px rgba(0,0,0,0,1);
+}
+.container .right_Side
+{
+    position: relative;
+    background: rgb(240, 207, 169);  
+    padding: 75px; 
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.profileText h2
+{
+    color: rgb(69, 67, 67);
+    font-size: 1.7em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.9em;
+}
+.contactInfo
+{
+    color: rgb(95, 91, 91);
+    font-size: 1.0em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 50;
+    line-height: 0.9em;
+}
+.educationInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.educationInfo h2
+{
+    color: rgb(69, 67, 67);
+    font-size: 1.7em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.9em;
+
+}
+.educInfo
+{
+    color: rgb(95, 91, 91);
+    font-size: 1.0em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 50;
+    line-height: 0.9em;
+}
+.expertInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.expertInfo h2
+{
+    color: rgb(69, 67, 67);
+    font-size: 1.7em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.9em;
+
+}
+.expInfo
+{
+    color: rgb(95, 91, 91);
+    font-size: 1.2em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 50;
+    line-height: 0.9em;
+}
+.languageInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.languageInfo h2
+{
+    color: rgb(69, 67, 67);
+    font-size: 1.7em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.9em;
+
+}
+.langInfo
+{
+    color: rgb(95, 91, 91);
+    font-size: 1.0em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 50;
+    line-height: 0.9em;
+}
+
+
+.container .left_Side
+{
+    position: relative;
+    background: white;  
+    padding: 40px; 
+}
+.about h1
+{
+    color: rgb(115, 93, 93);
+    font-size: 2.9em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.6em;
+}
+.about h2
+{
+    color: rgb(115, 93, 93);
+    font-size: 2.0em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.4em;
+}
+.title2
+{
+    color:rgb(121, 117, 117);
+    font-size: 0.9em;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: 800;
+    line-height: 1.0em;
+}
+.title2
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 3px solid  rgb(115, 93, 93);
+}
+p
+{
+    color: rgb(94, 91, 91);
+}
+.about1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding bottom: 15px;
+    border-bottom: 3px solid  rgb(115, 93, 93);
+}
+.about1 .box
+{
+    display: flex;
+    flex-direction: row; 
+    margin: 20px 0;
+}
+.about1 .box .year_company
+{
+    min-width: 150px;
+}
+.about1 .box .year_company h5
+{
+    text-transform: uppercase;
+    color: rgb(95, 91, 91);
+}
