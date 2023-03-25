@@ -17,8 +17,8 @@
         <link rel="icon" href="assets/logo.png" type="image/icon type">
 
     </head>
-    <body>   
-        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0 fixed-top">
+    <body>    
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0 ">
             <div class="container-fluid">
               <a class="navbar-brand" href="user.html"> <h1 class="m-0 text-primary"><img id="logo" src="assets/logo.png"> MedWellness</h1></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,25 +30,20 @@
                     <a class="nav-link active" aria-current="page" href="user.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">Profile</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="service.html"></a>
+                    <a class="nav-link" href="#">Profile</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                      Coverage
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Coverage</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="benefitandco.html">Medical Coverage</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Dental Coverage</a></li>
+                      <li><a class="dropdown-item" href="#">Medical Coverage</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Drug Coverage</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Dental Coverage</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="doctors.html">Provider Search</a>
+                    <a class="nav-link" href="doctors.html">Claims</a>
                   </li>
                 </ul>
                 <a href="login.html" class="btn btn-primary py-2 px-4 ms-3">Logout</a>
@@ -56,8 +51,92 @@
             </div>
           </nav>
 
-
-      
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="modal fade" id="searchModal" tabindex="-1">
+          <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                  <div class="modal-header border-0">
+                      <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex align-items-center justify-content-center">
+                      <div class="input-group" style="max-width: 600px;">
+                          <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                          <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+     
+      <div class="container-fluid bg-primary py-5 hero-header mb-5">
+          <div class="row py-3">
+              <div class="col-12 text-center">
+                  <h2 class="display-3 text-white animated zoomIn">Members</h2>
+                  <a href="" class="h4 text-white">Home</a>
+                  <i class="far fa-circle text-white px-2"></i>
+                  <a href="" class="h4 text-white">Profile</a>
+              </div>
+          </div>
+      </div>
+    
+    
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title mb-4">
+                            <h5 class="d-inline-block text-primary text-uppercase">Hello Member</h5>
+                            <h1 class="display-5 mb-0">Our expertise has allowed us to help millions of people achieve their goals, and to be there for them in times of need.</h1>
+                        </div>
+                        <h4 class="text-body fst-italic mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h4>
+                        <p class="mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="row g-3">
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>&nbsp;Award Winning</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>&nbsp;Professional Staff</h5>
+                            </div>
+                            <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>&nbsp;Fair Prices</h5>
+                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>&nbsp;Wealth transfer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="assets/well.jpeg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="container-fluid position-relative pt-5" style="z-index: 1;">
+            <div class="container">
+                <div class="bg-primary p-5">
+                    <form class="mx-auto" style="max-width: 600px;">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                            <button class="btn btn-dark px-4">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         
         <div class="container-fluid bg-dark text-light py-5" style="margin-top: -75px;">
             <div class="container pt-5">
@@ -67,12 +146,13 @@
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                             <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Profile</a>
-                            <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>FAQS</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Logout</a>
                         </div>
                     </div>
                     
                     <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Get In Touch</h3>
+                        <h3 class="text-white mb-4">Customer Service</h3>
                         <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>789 Street, Metro Manila, Philippines</p>
                         <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>medwellness@abcde.com</p>
                         <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 6789</p>
